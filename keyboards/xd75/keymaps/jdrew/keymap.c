@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+-----------------+--------|
  * |        |        |        |        |        |        | F4     | F5     | F6     | HOME   | LEFT   | DOWN   | RIGHT  | END    |        |
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------------------------+--------|
- * | LSHIFT |        |        |        |        |        | F1     | F2     | F3     |        |        |        |        |        |        |
+ * | LSHIFT |        |        |        |        |        | F1     | F2     | F3     |        | CTLLEFT| MENU   | CTLRGHT|        |        |
  * |--------+--------+--------+--------+--------+-----------------+--------+--------+--------+--------+-----------------+--------+--------|
  * | LCTRL  | LGUI   | LALT   |        |        |        |        | 0      |        | MO(1)  |        |        |        |        |        |
  * '--------------------------------------------------------------------------------------------------------------------------------------'
@@ -52,7 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[1] = LAYOUT_ortho_5x15(KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_F10, KC_F11, KC_F12, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
                           KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_F7, KC_F8, KC_F9, KC_NO, KC_PGDN, KC_UP, KC_PGUP, KC_NO, KC_NO, 
                           KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_F4, KC_F5, KC_F6, KC_HOME, KC_LEFT, KC_DOWN, KC_RGHT, KC_END, KC_NO, 
-                          KC_LSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_F1, KC_F2, KC_F3, KC_NO, KC_MENU, KC_NO, KC_NO, KC_NO, KC_NO, 
+                          KC_LSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_F1, KC_F2, KC_F3, KC_NO,  LCTL(KC_LEFT), KC_APPLICATION, LCTL(KC_RGHT), KC_NO, KC_NO, 
                           KC_LCTL, KC_LGUI, KC_LALT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO),
 
 /* Lower (2)
