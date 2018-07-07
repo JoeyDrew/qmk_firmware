@@ -25,7 +25,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------------------------+--------|
  * | LSHIFT | Z      | X      | C      | V      | B      | 1      | 2      | 3      | K      | M      | ,      | .      | /      | RSHIFT |
  * |--------+--------+--------+--------+--------+-----------------+--------+--------+--------+--------+-----------------+--------+--------|
- * | LCTRL  | LGUI   | LALT   | SPACE   | LSHIFT | MO(2)  | BSPACE | 0      | ENTER  | MO(1)  | SPACE  | LEFT   | DOWN   | UP   | RIGHT   |
+ * | LCTRL  | LGUI   | LALT   | SPACE  | LSHIFT | MO(2)  | BSPACE | 0      | ENTER  | MO(1)  | SPACE  | LEFT   | DOWN   | UP   | RIGHT   |
  * '--------------------------------------------------------------------------------------------------------------------------------------'
  */
 
@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------------------------+--------|
  * | LSHIFT |        |        |        |        |        | F1     | F2     | F3     |        | CTLLEFT| MENU   | CTLRGHT|        |        |
  * |--------+--------+--------+--------+--------+-----------------+--------+--------+--------+--------+-----------------+--------+--------|
- * | LCTRL  | LGUI   | LALT   |        |        |        |        | 0      |        | MO(1)  |        |        |        |        |        |
+ * | LCTRL  | LGUI   | LALT   |        | LSHIFT |        |        | 0      |        | MO(1)  |        |        |        |        |        |
  * '--------------------------------------------------------------------------------------------------------------------------------------'
  */
 							
@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                           KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_F7, KC_F8, KC_F9, KC_NO, KC_PGDN, KC_UP, KC_PGUP, KC_NO, KC_NO, 
                           KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_F4, KC_F5, KC_F6, KC_HOME, KC_LEFT, KC_DOWN, KC_RGHT, KC_END, KC_NO, 
                           KC_LSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_F1, KC_F2, KC_F3, KC_NO,  LCTL(KC_LEFT), KC_APPLICATION, LCTL(KC_RGHT), KC_NO, KC_NO, 
-                          KC_LCTL, KC_LGUI, KC_LALT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO),
+                          KC_LCTL, KC_LGUI, KC_LALT, KC_NO, KC_LSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_NO,  KC_NO, KC_NO, KC_NO, KC_NO),
 
 /* Lower (2)
  * .--------------------------------------------------------------------------------------------------------------------------------------.
@@ -65,7 +65,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------------------------+--------|
  * | LSHIFT |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
  * |--------+--------+--------+--------+--------+-----------------+--------+--------+--------+--------+-----------------+--------+--------|
- * | LCTRL  | LGUI   | LALT   |        |        | MO(2)  |        |        |        |        |        |        |        |        |        |
+ * | LCTRL  | LGUI   | LALT   |        | LSHIFT | MO(2)  |        |        |        |        |        |        |        |        |        |
  * '--------------------------------------------------------------------------------------------------------------------------------------'
  */
 
@@ -73,7 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                           KC_NO, KC_MUTE, KC_MPRV, KC_MPLY, KC_MNXT, KC_NO, KC_NO, DEBUG, KC_NO, KC_NO, KC_MINS, KC_EQL, KC_LBRC, KC_RBRC, KC_NO, 
                           KC_NO, M_ALT_TAB, LALT(KC_TAB), M_CTL_TAB, LCTL(KC_TAB), KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
                           KC_LSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_RSFT, 
-                          KC_LCTL, KC_LGUI, KC_LALT, KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO),
+                          KC_LCTL, KC_LGUI, KC_LALT, KC_NO, KC_LSFT, KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO),
 
 /* Toggle (3) [QWERTY Layer]
 * .--------------------------------------------------------------------------------------------------------------------------------------.
