@@ -19,20 +19,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * .--------------------------------------------------------------------------------------------------------------------------------------.
  * | `      | 1      | 2      | 3      | 4      | 5      | /      | TOG(3) | *      | 6      | 7      | 8      | 9      | 0      | DEL    |
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+-----------------|
- * | TAB    | Q      | W      | F      | P      | G      | 7      | 8      | 9      | J      | L      | U      | Y      | ;      | \      |
+ * | TAB    | Q      | W      | F      | P      | B      | 7      | 8      | 9      | J      | L      | U      | Y      | ;      | \      |
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+-----------------+--------|
- * | ESC    | A      | R      | S      | T      | D      | 4      | 5      | 6      | H      | N      | E      | I      | O      | '      |
+ * | ESC    | A      | R      | S      | T      | G      | 4      | 5      | 6      | K      | N      | E      | I      | O      | '      |
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------------------------+--------|
- * | LSHIFT | Z      | X      | C      | V      | B      | 1      | 2      | 3      | K      | M      | ,      | .      | /      | RSHIFT |
+ * | LSHIFT | Z      | X      | C      | D      | V      | 1      | 2      | 3      | M      | H      | ,      | .      | /      | RSHIFT |
  * |--------+--------+--------+--------+--------+-----------------+--------+--------+--------+--------+-----------------+--------+--------|
  * | LCTRL  | LGUI   | LALT   | SPACE  | LSHIFT | MO(2)  | BSPACE | 0      | ENTER  | MO(1)  | SPACE  | LEFT   | DOWN   | UP   | RIGHT   |
  * '--------------------------------------------------------------------------------------------------------------------------------------'
  */
 
 	[0] = LAYOUT_ortho_5x15(KC_GRV, KC_1, KC_2, KC_3, KC_4, KC_5, KC_PSLS, TG(3), KC_PAST, KC_6, KC_7, KC_8, KC_9, KC_0, KC_DEL,
-							            KC_TAB, KC_Q, KC_W, KC_F, KC_P, KC_G, KC_7, KC_8, KC_9, KC_J, KC_L, KC_U, KC_Y, KC_SCLN, KC_BSLS, 
-						             	KC_ESC, KC_A, KC_R, KC_S, KC_T, KC_D, KC_4, KC_5, KC_6, KC_H, KC_N, KC_E, KC_I, KC_O, KC_QUOT, 
-						            	KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_1, KC_2, KC_3, KC_K, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT, 
+							            KC_TAB, KC_Q, KC_W, KC_F, KC_P, KC_B, KC_7, KC_8, KC_9, KC_J, KC_L, KC_U, KC_Y, KC_SCLN, KC_BSLS, 
+						             	KC_ESC, KC_A, KC_R, KC_S, KC_T, KC_G, KC_4, KC_5, KC_6, KC_K, KC_N, KC_E, KC_I, KC_O, KC_QUOT, 
+						            	KC_LSFT, KC_Z, KC_X, KC_C, KC_D, KC_V, KC_1, KC_2, KC_3, KC_M, KC_H, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT, 
 						            	KC_LCTL, KC_LGUI, KC_LALT, KC_SPC, KC_LSFT, MO(2), KC_BSPC, KC_0, KC_ENT, MO(1), KC_SPC, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT),
 
  /* Raise (1)
